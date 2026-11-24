@@ -24,9 +24,12 @@ st.markdown(
                border-radius: 8px; margin-bottom: 10px; }}
       .card.urgent {{ border-left-color: #e53935; background: #fdf1f0; }}
       .card.soon {{ border-left-color: #fb8c00; background: #fff6ea; }}
+      .card, .card b {{ color: #111b21 !important; }}
+      .card a {{ color: #0b6bcb !important; }}
       .card.done {{ opacity: 0.5; }}
-      .meta {{ color: #667781; font-size: 0.85rem; }}
+      .card .meta {{ color: #54656f !important; font-size: 0.85rem; }}
       .msg {{ background: #e7ffdb; padding: 6px 10px; border-radius: 8px; margin: 4px 0; }}
+      .msg, .msg b {{ color: #111b21 !important; }}
       .msg.hit {{ border: 2px solid #25D366; }}
     </style>
     """,
